@@ -22,6 +22,9 @@ def autores():
 @app.route("/contato")
 def contato():
     return "Página de contato do sistema"
+@app.route("/explicando")
+def contato():
+    return "O site foi feito em aula"
 
 if __name__ == "__main__":
     app.run(debug=True)
